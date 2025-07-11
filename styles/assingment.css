@@ -81,7 +81,7 @@ span{
     display: flex;
     justify-content: space-between; 
     align-items: center 220px;
-    gap: 5px
+    gap: 5px;
 }
 
 img{
@@ -124,9 +124,7 @@ img{
     justify-items: center;
     justify-content: center;
 }
-.about-item{
-    padding-bottom: ;
-}
+
 .ready{
     font-size: 50px;
     font-weight: bold;
