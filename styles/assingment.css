@@ -4,11 +4,21 @@ body{
     background-color:#F5F8FF ;
 }
 
+/* common style"*/
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.section-margin {
+    margin-top: 120px;
+}
+
+
 nav{ 
     display: flex;
     align-items: center;
     justify-content:space-between ;
-    margin: 0px 200px;
 }
 .logo{
      font-family: "Inter", sans-serif;
@@ -34,15 +44,15 @@ span{
 }
 .cool-dark{
     text-align: center;
-    padding-bottom: 20px;
+    padding: 70px 0;
 }
 .cool{
-    padding-top: 180px;
     font-weight: 700;
     font-size: 65px;
     line-height: 100%;
     font: bold;
     color: #252432;
+    
 }
 
 .one-header{
@@ -67,9 +77,6 @@ span{
     display: flex;
     justify-content: space-between; 
     align-items: center 220px;
-    padding-top: 220px;
-    padding-left:220px;
-    padding-right: 220px;;
     gap: 5px
 }
 
@@ -81,6 +88,42 @@ img{
 
 .joined{
     font-weight: 700;
-    size: 38px;
-    line-height: 100%;
+    font-size: 38px;
+    padding-bottom: 45px;
+    
+    margin: 0;
 }
+
+
+.item-title{
+    color: #4E47FF;
+
+    font-weight: bold;
+    font-size: 80px;
+    margin: 0;
+     
+    }
+    
+    .items{
+        display: flex;
+        gap:158px ;
+    }
+
+.item-depcription {
+    margin: 0;
+}    
+       
+.second-bg{
+    background-color:#4E47FF1A ;
+    border-radius: 24px;
+    padding:40px 60px;
+    justify-items: center;
+    justify-content: center;
+}
+.about-item{
+    padding-bottom: ;
+}
+
+
+
+
