@@ -29,15 +29,18 @@ nav{
   color: #4E47FF;
 }
 .action-btn{
+
     background-color:#4E47FF;
     color: white;
     padding: 12px 36px;
     border-radius:10px;
     border: none; 
+   
 }
 
 .action-btn:hover {
-    background-color:#6560f9;
+    background-color:#d19617;
+     transition: 0.5s all;
 }
 
 span{
@@ -237,7 +240,9 @@ li{
     padding: 137px 0;
 }
 .photo{
+    
     display: flex;
+    align-items: center;
     gap: 25px;
 }
 .star-one{
@@ -256,4 +261,12 @@ li{
 }
 .users{
     margin-top: 134px;
+}
+li{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+     color: rgba(137, 135, 161, 1);
 }
