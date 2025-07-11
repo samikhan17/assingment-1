@@ -147,6 +147,59 @@ img{
    width: 840px;
    
 }
+.let{
+    font-size: 97px;
+    font-weight: bold;
+}
+.label{
+    font-weight: 500;
+    font-size: 18px;
+    gap: 10px 0;
+}
+.input-both{
+    border: 1px;
+    border-radius: 10px;
+    padding: 20px 32px;
+    width: 500px;
+}
+.area-text{
+    border: 1px;
+    border-radius: 10px;
+}
+.main-form{
+    display: flex;
+    justify-content: space-between;
+    padding: 95px 0;
+}
+.inp{
+    color: white;
+    background-color: rgba(78, 71, 255, 1);
+    width: 560px; 
+    height: 62px;
+    border: none;
+    border-radius: 10px;
+}
+.inp:hover{
+    background-color:#6560f9;
+    
+}
+.four-texts{
+    display: flex;
+    
+ 
+}
+.clof-footer{
+    background-color: white;
+    height: 428px;
+}
+.last-section{
+    justify-items: center;
+}
+.foot-logo{
+    font-weight: 900;
+    font-size: 100px;
+    color: rgba(78, 71, 255, 1);
+}
 
 
 
